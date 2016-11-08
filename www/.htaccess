@@ -1,0 +1,12 @@
+## Local settings for WebApp application.
+##
+## Copyright © 2016 Paul Bloomfield <paulbloomfield-uk.github.io>.
+## License MIT see https://github.com/paulbloomfield-uk/webapp/LICENSE.md.
+
+RewriteEngine On
+
+# ignore requests to index.php or the assets directory
+RewriteRule ^(index.php$|assets(/|$)) - [L]
+
+# redirect everything else to index.php
+RewriteRule . index.php [L]

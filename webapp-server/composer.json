@@ -1,0 +1,14 @@
+{
+    "name": "paulbloomfield-uk/webapp-server",
+    "description": "Web application framework server",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Bloomfield",
+            "email": "paulbloomfield.uk@gmail.com"
+        }
+    ],
+    "require": {
+        "silex/silex": "^2.0"
+    }
+}
